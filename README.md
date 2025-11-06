@@ -1,4 +1,4 @@
-def power_and_root(number, exponent, root_n):
+def power_and_root(number, exponent, root_):
     power_result = number ** exponent
     root_result = number ** (1 / root_n)
     return power_result, root_result
